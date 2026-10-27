@@ -58,7 +58,7 @@ This controller board powers two machines that work together:
 
 ## Board Images
 
-![Top View](CTG-Topview.png)
+![Top View](Topview.png)
 ![Front View](CTG-frontview.png)
 
 ## Repository Structure
