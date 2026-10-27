@@ -1,6 +1,6 @@
 # Carrier Tray Loader / Unloader Controller
 
-An RP2040-based industrial PCB designed to automate carrier tray handling for pick-and-place machines — eliminating the need for a human operator to manually feed and collect trays during production runs.
+An RP2040-based industrial PCB designed to automate carrier tray handling for PnP machines — eliminating the need for a human operator to manually feed and collect trays during production runs.
 
 ![Board Status](https://img.shields.io/badge/status-fabricated-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
@@ -9,7 +9,7 @@ An RP2040-based industrial PCB designed to automate carrier tray handling for pi
 
 ## The Problem
 
-Pick-and-place machines require a continuous supply of carrier trays to place components into. Without automation, an operator must stand at the machine full-time — manually loading empty trays one by one and collecting filled ones. This is wasteful, error-prone, and ties up a person for the entire production run.
+PnP machines require a continuous supply of carrier trays to place components into. Without automation, an operator must stand at the machine full-time — manually loading empty trays one by one and collecting filled ones. This is wasteful, error-prone, and ties up a person for the entire production run.
 
 ## The Solution
 
@@ -17,7 +17,7 @@ This controller board powers two machines that work together:
 
 **Loader** — Operator loads a stack of 5–10 empty trays at once. The machine automatically feeds one tray at a time onto the conveyor when the pick-and-place machine is ready, then steps down to the next tray in the stack.
 
-**Unloader** — Collects filled trays returning from the pick-and-place machine, stacks them, and steps up to make room for the next incoming tray — building a neat stack of completed trays without any human intervention.
+**Unloader** — Collects filled trays returning from the PnP machine, stacks them, and steps up to make room for the next incoming tray — building a neat stack of completed trays without any human intervention.
 
 ## How It Works
 
@@ -94,7 +94,7 @@ This controller board powers two machines that work together:
 
 - Eliminated full-time operator requirement at loader/unloader stations
 - Allows batch loading of 5–10 trays, freeing the operator for other tasks
-- Consistent tray feeding speed improves pick-and-place throughput
+- Consistent tray feeding speed improves Pnp throughput
 - Reduced tray misalignment errors compared to manual feeding
 
 ## Author
